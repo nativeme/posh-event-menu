@@ -2,13 +2,13 @@
 This is simple "arrow selectable" menu writen purely in powershell.  
 May be handy for simple predefined events or making "GUI script" for non IT user.
 
+![small_menu_demo](https://user-images.githubusercontent.com/41862141/136713950-cc23a965-2d00-4560-9319-8638c9bced11.gif)
+
 ## Known limitations
 1. ScriptBlock (aka. "Action") technicaly is called inside DrawMenu method, and output is force forwarded to the host window.
    so if you call by menu something like ```ping google.com -n 10``` result wont show up untill all pings are done.  
    In case calling ```ping google.com -t``` powershell window will freeze until You manually stop pinging.  
    Same goes for everything that is outputing actively to terminal. eg. ```Ookla Speedtest CLI``` 
-
-![small_menu_demo](https://user-images.githubusercontent.com/41862141/136713950-cc23a965-2d00-4560-9319-8638c9bced11.gif)
 
 **You can find all examples shown below in repo\examples**
 
