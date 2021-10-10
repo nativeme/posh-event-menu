@@ -8,7 +8,7 @@ May be handy for simple predefined events or making "GUI script" for non IT user
    In case calling ```ping google.com -t``` powershell window will freeze until You manually stop pinging.  
    Same goes for everything that is outputing actively to terminal. eg. ```Ookla Speedtest CLI``` 
 
-![small_menu_demo](https://user-images.githubusercontent.com/41862141/136713559-558dd392-4d3c-4f37-8a62-2126fafef90f.gif)
+![small_menu_demo](https://user-images.githubusercontent.com/41862141/136713950-cc23a965-2d00-4560-9319-8638c9bced11.gif)
 
 **You can find all examples shown below in repo\examples**
 
